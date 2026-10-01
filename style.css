@@ -1,57 +1,55 @@
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f4f6f9;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        margin: 0;
-    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
 
-    .container {
-        text-align: center;
-        background: #ffffff;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    }
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
 
-    #area {
-        width: 200px;
-        height: 200px;
-        background-color: #953674;
-        border-radius: 8px;
-        margin: 0 auto 20px auto;
-        cursor: pointer;
-        box-shadow: 0 4px 12px rgba(149, 54, 116, 0.2);
-        transition: background-color 0.3s ease, transform 0.2s ease;
-    }
+#area {
+    width: 200px;
+    height: 200px;
+    background-color: #953674;
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(149, 54, 116, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-    #area:hover {
-        transform: scale(1.02);
-    }
+#area:hover {
+    transform: scale(1.02);
+}
 
-    #reset {
-        background-color: #ffffff;
-        color: #953674;
-        border: 2px solid #953674;
-        padding: 10px 24px;
-        font-size: 16px;
-        font-weight: 600;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: all 0.2s ease;
-    }
+#reset {
+    background-color: #ffffff;
+    color: #953674;
+    border: 2px solid #953674;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
 
-    #reset:hover {
-        background-color: #953674;
-        color: #ffffff;
-        box-shadow: 0 4px 12px rgba(149, 54, 116, 0.15);
-    }
+#reset:hover {
+    background-color: #953674;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(149, 54, 116, 0.15);
+}
 
-    #reset:active {
-        transform: scale(0.98);
-    }
-</style>
+#reset:active {
+    transform: scale(0.98);
+}
